@@ -1,0 +1,223 @@
+a {
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin-left:146px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 146px;
+    /* padding-left: 146px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 146px; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+
+}
+
+.nav-link {
+    color: #22343D;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: Poppins;
+
+}
+
+.nav-item:first-child {
+    margin-left: 0px;
+}
+
+.sign-in,
+.sign-up {
+    color: #22343D;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-right: 24px;
+    font-family: Poppins;
+}
+
+.sign-in {
+    background-color: white;
+    border: 2px solid #BCD0E5;
+}
+
+.sign-up {
+    background-color: teal;}
+
+.user-action {
+    display: flex;
+    margin-left: 24px;
+}
+
+.section-first {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 146px;
+    margin-right: 150px;
+}
+
+.section-first-left {
+    margin-top: 145px;
+}
+
+.main-title {
+    color: #22343D;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 18px;
+    
+}
+
+.main-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.main-action {
+    margin-top: 46px;
+}
+
+.button {
+    color: white;
+    background-color: #02897A;
+    font-size: 16px;
+    padding: 15px 41px;
+    margin-right: 30px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.watch-video {
+    color: #02897A;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.watch-vidio-icon {
+margin-right: 8.5px;
+height: 14px;
+}
+
+
+.section-second-title {
+    margin-top: 114px;
+    margin-bottom: 58px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+
+
+.section-second-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left:146px;
+    margin-right: 146px;
+}
+
+.section-second-content-group {
+    margin-right: 80px;
+}
+
+.section-second-content-group:last-child {
+    margin-right: 0px;
+}
+
+.section-second-content-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+
+.section-second-content-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.section-second-icon {
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.section-second-content-title {
+    margin-bottom: 14px;
+}
+
+.section-second-content-text {
+    margin-bottom: 52px;
+}
+
+/* .sign-up-now-button {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.sign-up-now {
+    background-color: #02897A;
+    color: white;
+    padding: 15px 35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.sign-up-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 110px;
+}
+
